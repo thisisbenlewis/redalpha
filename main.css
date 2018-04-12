@@ -1,0 +1,190 @@
+html {
+    background-color: #fff;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html, body{
+  height: 100%;
+}
+body {
+    position: relative;
+    margin: 0 auto;
+    font: 100% Helvetica, Arial, Sans-serif;
+    background-image: url(images/architecture-building-business-210592.jpg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #fff;
+}
+.container-fluid {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.wrapper {
+  height: 100%; 
+  width: 100%;
+}
+.message {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%; 
+  height:80%;
+  bottom: 0; 
+  display: block;
+  position: absolute;
+  background-color: transparent;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+div, body{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif; 
+}
+h1 {
+    color: white;
+    font-size: 6vw;
+    font-weight: 900;
+    border-bottom: 1px solid white;
+    line-height: 1.5em
+}
+h2 {
+    color: #D3D3D3;
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 10px
+}
+h3 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 10px
+}
+p {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.5em;
+}
+a {
+    font-family: helvetica;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 900;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+a:focus {
+    color: #ff2800;
+}
+.navbar-fixed-top {
+    background-color: transparent;
+    border: none;
+}
+.navbar-brand.custom {
+    font-family: helvetica;
+    font-size: 3em;
+    font-weight: 600;
+    color: #ff2800;
+}
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+.row {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#section2 {
+    background-color: #ff2800;
+    color: white;
+}
+blockquote {
+    color: white;
+    font-family: "source code pro";
+    font-style: italic;
+    border-left: 1px solid white;
+}
+.content {
+  height: 100%;
+}
+
+.wrapper1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.box {
+  -webkit-box-flex: none;
+  -moz-box-flex: none;
+  box-flex: none;
+  -webkit-flex: none;
+  -moz-flex: none;
+  -ms-flex: none;
+  flex: none;
+    font-weight: 600;
+    border-radius: 50px;
+  height: 75px;
+  width: 75px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 25px;
+  color: #F5F5F5;
+ 
+  will-change: transform;
+}
+.box:nth-of-type(2) {
+  background: #ff2800;
+}
+.box:nth-of-type(3) {
+  
+}
+.box:nth-of-type(4) {
+ 
+}
+.box:nth-of-type(5) {
+  
+}
+.box:nth-of-type(6) {
+
+}
